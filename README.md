@@ -35,8 +35,8 @@ registered as their cell phone which, once downloaded, is now hard coded into th
 settings rewritten without deleting the app and redownloading it.
 
 Depending on how the "app" was configured before it was downloaded, once the user clicks on the apps icon it loads up an
-informative display and triggers the dial through the server interface which is configured to work with Asterisk using
-AMIty (A python asterisk manager interface based on tornado).
+informative display and triggers the dial through the server interface which is configured to work with Asterisk using a
+simple AJAM/AMI client or the asterisk spool directory.
 
 Custom routing engines are supported to allow, for example, a GeoIP based solution that sends the call request to the
 nearest office.  Backup servers are supported as well.
